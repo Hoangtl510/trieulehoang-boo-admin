@@ -132,6 +132,7 @@
                         justify-content: center;
                         > button {
                             margin-left: 10px;
+                            cursor: pointer;
                             &:nth-child(1) {
                                 margin-left: 0px;
                             }

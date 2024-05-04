@@ -155,6 +155,10 @@ ul {
   }
 }
 
+.status-error2 {
+  color: red;
+}
+
 .auth {
   display: flex;
   height: 100vh;

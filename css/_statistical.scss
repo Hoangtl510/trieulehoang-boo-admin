@@ -1,0 +1,71 @@
+.body-main {
+    padding-top: 206px;
+}
+.statistical {
+    .statistical-header {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        .statistical-header__item {
+            width: calc((100% / 4) - 15px);
+            padding: 24px;
+            background-color: #F3F4F5;
+            border-radius: 16px;
+            .statistical-header__item-header {
+                display: flex;
+                justify-content: space-between;
+                .statistical-header__item-header--left {
+                    font-size: 18px;
+                    color: #2E2E2E;
+                }
+                .statistical-header__item-header--right {
+                    font-size: 14px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+                    align-items: end;
+                    .statistical-header__item-header--right-item-green {
+                        color: #00D084;
+                    }
+                    .statistical-header__item-header--right-item-red {
+                        color: #CF2E2E;
+                    }
+                    .statistical-header__item-header--right-item-gray {
+                        color: #8A929E;
+                    }
+                }
+            }
+            .statistical-header__item-body {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 4px;
+                .statistical-body__item--left {
+                    font-size: 36px;
+                    font-weight: 600;
+                }
+                .statistical-body__item--right-green {
+                    font-size: 12px;
+                    color: #00D084;
+                    padding: 4px 6px;
+                    border-radius: 100px;
+                    background-color: #B0F0D9;
+                    width: fit-content;
+                    height: fit-content;
+                }
+                .statistical-body__item--right-red {
+                    font-size: 12px;
+                    color: #CF2E2E;
+                    padding: 4px 6px;
+                    border-radius: 100px;
+                    background-color: #F0BEBE;
+                    width: fit-content;
+                    height: fit-content;
+                }
+            }
+        }
+    }
+    .statistical-chart {
+        margin-top: 30px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOO</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet"
+        href="https://redpervn.github.io/fa/css/all.min.css?fbclid=IwAR2VnCVu3fZyZybhEPHqAoRF9xJd2ZJZ43gCLfQokvfv6X5YJv1_V3HNSyw">
+    <link>
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- link css -->
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="search">
+            <input type="text" placeholder="Tìm kiếm..."/>
+            <i class="icon-search fa-solid fa-magnifying-glass" id="iconSearch"></i>
+            <i class="fa-solid fa-bars icon-show-menu-mobile" id="iconMenuMobile"></i>
+          </div>
+          <div class="search-mobile" id="inputSearchMobile">
+            <i class="fa-solid fa-xmark" id="iconCloseSearch"></i>
+            <input type="text" placeholder="Tìm kiếm..."/>
+          </div>
+          <div class="logo">
+            <img src="/images/logo-boo.png" alt="logo"/>
+          </div>
+          <div class="action">
+            <a href="" class="icon-link"><i class="fa-regular fa-user"></i></a>
+          </div>
+        </div>
+        <div class="header-menu" id="menuMoBile">
+          <div class="icon-close-menu-mobile">
+            <i class="fa-solid fa-xmark" id="iconCloseMenuMobile"></i>
+          </div>
+          <a href="./statistical.html">Thống kê</a>
+          <div class="diamond diamond-menu"></div>
+          <a href="./product-admin.html">Sản phẩm</a>
+          <div class="diamond diamond-menu"></div>
+          <a href="./sign-menu.html">Đơn hàng</a>
+          <div class="diamond diamond-menu"></div>
+          <a href="./blog.html" class="menu-active">Blog</a>
+          <div class="diamond diamond-menu"></div>
+          <a href="./manage.html">Quản lý</a>
+        </div>
+      </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="body-main content-admin">
+                <div class="content-admin-header">
+                    <div class="content-admin-header__title">
+                        Blog đã đăng
+                    </div>
+                    <div class="content-admin-header__left">
+                        <div class="content-admin-header__left-input">
+                            <i class="icon-search fa-solid fa-magnifying-glass"></i>
+                            <input placeholder="Tìm kiếm"/>
+                        </div>
+                        <button>
+                            <i class="fa-regular fa-plus"></i>
+                            Thêm bài đăng
+                        </button>
+                    </div>
+                </div>
+                <div class="table-admin">
+                  <div class="table-admin-header">
+                    <div class="table-admin-header__title">Tổng hợp bài đăng</div>
+                  </div>
+                  <table class="table-admin__content">
+                    <thead>
+                      <tr>
+                        <td class="title-number-product">STT</td>
+                        <td>Hình ảnh</td>
+                        <td class="title-name-product">Tiêu đề</td>
+                        <td>Người đăng</td>
+                        <td>Ngày đăng</td>
+                        <td>Lượt xem</td>
+                        <td>Hành động</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="number">1</td>
+                        <td><img src="./images/blog/blog-1.png"/></td>
+                        <td class="name">MUA SẮM HẾT MÌNH - VUI CHƠI THOẢ THÍCH</td>
+                        <td>Lê Văn Tân</td>
+                        <td>23/03/2024</td>
+                        <td>7.5k</td>
+                        <td>
+                            <button class="view">Xem</button>
+                            <button class="edit">Sửa</button>
+                            <button class="delete">Xóa</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="number">2</td>
+                        <td><img src="./images/blog/blog-2.png"/></td>
+                        <td class="name">NGỌT NGÀO ĐÓN MÙA MỚI CÙNG LOTSO</td>
+                        <td>Trần Văn Anh</td>
+                        <td>16/03/2024</td>
+                        <td>5k</td>
+                        <td>
+                            <button class="view">Xem</button>
+                            <button class="edit">Sửa</button>
+                            <button class="delete">Xóa</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="number">3</td>
+                        <td><img src="./images/blog/blog-3.png"/></td>
+                        <td class="name">OUTFIT XINH CHO NGÀY HỘI CHỊ EM THẬT NGỌT...</td>
+                        <td>Trần Văn Anh</td>
+                        <td>07/03/2024</td>
+                        <td>1.8k</td>
+                        <td>
+                            <button class="view">Xem</button>
+                            <button class="edit">Sửa</button>
+                            <button class="delete">Xóa</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="number">4</td>
+                        <td><img src="./images/blog/blog-4.png"/></td>
+                        <td class="name">ĐẾN VỚI BOO TRONG THÀNH PHỐ XANH, TỰ TAY...</td>
+                        <td>Triệu Lê Hoàng</td>
+                        <td>22/02/2024</td>
+                        <td>1.2k</td>
+                        <td>
+                            <button class="view">Xem</button>
+                            <button class="edit">Sửa</button>
+                            <button class="delete">Xóa</button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="admin__button">
+                  <button class="admin__button">Xem thêm</button>
+                </div>
+            </div>
+        </div>
+    </main>
+  </body>
+</html>

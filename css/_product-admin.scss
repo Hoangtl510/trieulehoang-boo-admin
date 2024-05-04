@@ -128,9 +128,14 @@
                         }
                     }
                     &:last-child {
-                        display: flex;
                         gap: 10px;
                         justify-content: center;
+                        > button {
+                            margin-left: 10px;
+                            &:nth-child(1) {
+                                margin-left: 0px;
+                            }
+                        }
                     }
                 }
             }
